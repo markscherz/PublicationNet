@@ -20,4 +20,4 @@ ggraph
 `library(PublicationNet)`
 
 # Usage
-See [the vignette](vignettes/ReadMe.Rmd) for usage of the core function, and plotting.
+See [the vignette](vignettes/Usage.Rmd) for usage of the core function, and plotting.
