@@ -1,8 +1,8 @@
 ---
-title: "Read Me"
-output: rmarkdown::html_vignette
+title: "Usage of PublicationNet"
+output: rmarkdown::github_document
 vignette: >
-  %\VignetteIndexEntry{ReadMe}
+  %\VignetteIndexEntry{PublicationNet}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
