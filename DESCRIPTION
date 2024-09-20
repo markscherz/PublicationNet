@@ -1,0 +1,24 @@
+Package: PublicationNet
+Title: Create Coauthorship Networks
+Version: 0.0.0.9000
+Authors@R: 
+    person("Mark D.", "Scherz", email = "mark.scherz@gmail.com", role = c("aut","cre"),
+           comment = c(ORCID = "0000-0002-4613-7761"))
+Maintainer: Mark D. Scherz <mark.scherz@gmail.com>
+Description: Create coauthorship networks from publication lists
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+	R (>= 3.1.0),
+	synthesisr,
+	data.table,
+	reshape2,
+	igraph,
+	tidygraph,
+	ggraph
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
