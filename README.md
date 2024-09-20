@@ -22,4 +22,4 @@ ggraph
 `library(PublicationNet)`
 
 # Usage
-See [the vignette](vignettes/Usage.md) for usage of the core function, and plotting.
+See [the vignette](vignettes/Usage.md) for usage of the core function, and plotting. Note: the network above uses a separately hand-coded list of countries of affiliation per author; you can do this by hand once you have generated the network, and use it as an aesthetic in the `ggraph` call.
