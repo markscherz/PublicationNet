@@ -10,7 +10,7 @@ makeSymm(m)
 \item{m}{lower triangle matrix}
 }
 \value{
-a new matrix that combines the original data matrix with the new publication matrix.
+a new matrix that is symmetric
 }
 \description{
 This functions converts a lower triangle matrix into a symmetric matrix by transposing the lower triangle into the upper triangle.
