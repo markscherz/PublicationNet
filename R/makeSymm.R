@@ -4,7 +4,7 @@
 #' It is taken from https://stackoverflow.com/questions/33026183/r-make-symmetric-matrix-from-lower-diagonal
 #' 
 #' @param m lower triangle matrix
-#' @return a new matrix that combines the original data matrix with the new publication matrix.
+#' @return a new matrix that is symmetric
 #' @export
 
 makeSymm <- function(m) { #
