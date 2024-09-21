@@ -12,13 +12,6 @@ add_to_pubnet <- function(newpub,data,shape=c("symmetric","lower")) {
   shape <- match.arg(shape)
   #function to add a publication to an existing data matrix
   #MAY NEED TO ADD METHOD TO ALLOW FOR UPPER TRIANGLE. 
-  #preparing environment
-  makeSymm <- function(m) { #from https://stackoverflow.com/questions/33026183/r-make-symmetric-matrix-from-lower-diagonal
-    #stopifnot("input is already symmetric" = m == t(m))
-    m[upper.tri(m)] <- t(m)[upper.tri(m)]
-    return(m)
-  }
-  #require(data.table) # apparently not allowed to do this in R functions
   
   #quality controls
   stopifnot("data is not a data.frame"=is.data.frame(data))
